@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary</title>
+  <link href="/static/css/final1.css" rel="stylesheet">
+</head>
+<body>
+  <h2>요약하려는 텍스트 파일을 업로드하세요</h2>
+  <!-- <hr> -->
+  <form action="/summarize" enctype="multipart/form-data" method="post">
+    <input name="file" type="file">
+    <input type="submit">
+  </form>
+</body>
+</html>
