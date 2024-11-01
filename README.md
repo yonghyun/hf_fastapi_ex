@@ -1,0 +1,2 @@
+# hf_fastapi_ex
+huggingface_fastapi_exercise
